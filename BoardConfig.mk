@@ -17,7 +17,7 @@
 
 # Use the open-source board-info file if none was set by the vendor
 # config.
-TARGET_BOARD_INFO_FILE ?= device/samsung/toroplus/board-info.txt
+TARGET_BOARD_INFO_FILE ?= device/samsung/torospr/board-info.txt
 
 # Use the part that is common between all tunas
 include device/samsung/tuna/BoardConfig.mk

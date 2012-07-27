@@ -8,7 +8,7 @@ TARGET_BOOTANIMATION_NAME := vertical-720x1280
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
+$(call inherit-product, device/samsung/torospr/full_toroplus.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
