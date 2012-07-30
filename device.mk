@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The Android Open Source Project
+# Copyright (C) 2012 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,26 +18,7 @@
 #
 # Everything in this directory will become public
 
-# use toro device as base so in upgrades we will upgrade both at once
+DEVICE_PACKAGE_OVERLAYS := device/samsung/torospr/overlay
+
 $(call inherit-product, device/samsung/tuna/device.mk)
-
-# Telephony property for CDMA
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cdma.home.operator.numeric=310120 \
-    ro.cdma.home.operator.alpha=Sprint \
-    ro.telephony.default_network=4
-
-# Hardware-specific features
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
-
-# APNs for 3G network access
-PRODUCT_COPY_FILES += \
-    device/samsung/torospr/plus-apns-conf.xml:system/etc/apns-conf.xml
-
-# Overlay for WiMAX-related settings
-DEVICE_PACKAGE_OVERLAYS += device/samsung/torospr/toroplus_overlay \
-                           device/samsung/torospr/overlay
-
-# Add Toro spring specific device configuration
 $(call inherit-product-if-exists, vendor/samsung/torospr/device-vendor.mk)
