@@ -18,7 +18,7 @@
 #
 # Everything in this directory will become public
 
-DEVICE_PACKAGE_OVERLAYS := device/samsung/torospr/overlay
+DEVICE_PACKAGE_OVERLAYS := device/samsung/toroplus/overlay
 
 $(call inherit-product, device/samsung/tuna/device.mk)
-$(call inherit-product-if-exists, vendor/samsung/torospr/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/toroplus/device-vendor.mk)
