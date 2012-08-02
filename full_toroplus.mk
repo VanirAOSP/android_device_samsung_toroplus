@@ -24,7 +24,7 @@
 # Camera
 PRODUCT_PACKAGES := \
     Camera \
-    Gallery
+    Gallery2
 
 #Sprint Menu
 PRODUCT_PACKAGES += \
