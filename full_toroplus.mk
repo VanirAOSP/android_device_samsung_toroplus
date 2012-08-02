@@ -21,9 +21,8 @@
 # lines, full and toro, hence its name.
 #
 
-# Camera
+# Camera and Gallery
 PRODUCT_PACKAGES := \
-    Camera \
     Gallery2
 
 #Sprint Menu
