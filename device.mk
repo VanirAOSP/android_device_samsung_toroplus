@@ -18,6 +18,11 @@
 #
 # Everything in this directory will become public
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cdma.home.operator.numeric=310120 \
+    ro.cdma.home.operator.alpha=Sprint \
+    ro.telephony.default_network=4
+
 DEVICE_PACKAGE_OVERLAYS := device/samsung/toroplus/overlay
 
 $(call inherit-product, device/samsung/tuna/device.mk)

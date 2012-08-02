@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sprint Diagnostics</string>
+    <string name="eos_sprint_telephony">Sprint Diagnostics</string>
+    <string name="eos_sprint_sprint_menu_summary">General network statistics and indicators</string>
+    <string name="eos_sprint_sprint_menu">Sprint network statistics</string>
+    <string name="eos_sprint_sprint_update_summary">Update your PRL and Profile</string>
+    <string name="eos_sprint_sprint_updates">Sprint Updates</string>
+    <string name="eos_sprint_debug_summary">Access advanced debugging menu. The access code is 777468, which is hard coded by the OEM and is not a security issue.</string>
+    <string name="eos_sprint_debug">Debug Menu</string>
+    <string name="eos_sprint_data_summary">View and edit data profile.</string>
+    <string name="eos_sprint_data">Data Menu</string>
+    <string name="eos_sprint_write_prl_summary">Write a Preferred Roaming List file. Note: You must have a prl file named test.prl in the root of your sdcard.</string>
+    <string name="eos_sprint_write_prl">Write PRL</string>
+    <string name="eos_sprint_rtn">RTN Menu</string>
+    <string name="eos_sprint_rtn_summary">This menu displays lifetime statistics of your device. It also provides an opportunity to reset.</string>
+    <string name="eos_sprint_gpsclrx">GPSCLRX Menu</string>
+    <string name="eos_sprint_gpsclrx_summary">This menu will allow you to reset aGPS data.</string>
+    <string name="eos_sprint_diag_summary">Access advanced diagnostics</string>
+    <string name="eos_sprint_diag">Diagnostics Menu</string>
+    <string name="eos_sprint_provision_summary">Start Hands-Free activation. This will also write the default PRL to your device.</string>
+    <string name="eos_sprint_provision">Provision Device</string>
+    <string name="eos_sprint_acct_edit_summary">Edit DM Account</string>
+    <string name="eos_sprint_acct_edit">DM Account</string>
+    <string name="provision_title">Hands Free Activation</string>
+    <string name="provision_message">This will initiate the Handsfree Activation process and automatically reboot your phone.</string>
+    <string name="provision_class">com.samsung.sdm.ui.HandsFreeActivation</string>
+    <string name="provision_package">com.samsung.sdm</string>
+    <string name="provision_action">com.android.phone.PERFORM_CDMA_PROVISIONING</string>
+    <string name="msl_screen">MSL Options</string>
+    <string name="msl_acquire_summary">After pressing, follow the very simple instructions on dialog.</string>
+    <string name="msl_acquire">Get MSL Code!</string>
+    <string name="msl_export_summary">Save msl to sdcard</string>
+    <string name="msl_export">Export MSL</string>
+    <string name="eos_sprint_msl_menu_summary">Master Subsidy Lock code allows for access to advanced radio diagnostics</string>
+    <string name="eos_sprint_msl_menu">MSL Menu</string>
+    <string name="msl_code_prefix">Your MSL code is</string>
+    <string name="hidden_menu">com.android.hiddenmenu</string>
+    <string name="msl_checker">com.android.hiddenmenu.MSL_option</string>
+    <string name="msl_instructions">MSL Instructions</string>
+    <string name="msl_message">When you press continue, select edit and enter an incorrect code. You will see a toast showing your msl and it will be stored for review.</string>
+    <string name="msl_continue">Continue</string>
+    <string name="msl_cancel">Cancel</string>
+    <string name="msl_action">org.teameos.telephony.msl</string>
+    <string name="msl_key">msl_key</string>
+</resources>

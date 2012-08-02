@@ -21,9 +21,14 @@
 # lines, full and toro, hence its name.
 #
 
-# Camera and Gallery
+# Camera
 PRODUCT_PACKAGES := \
-    Gallery2
+    Camera \
+    Gallery
+
+#Sprint Menu
+PRODUCT_PACKAGES += \
+    SprintMenu
 
 #if we do this after the full_base_telephony is included some of these don't get picked up..
 PRODUCT_COPY_FILES += \
@@ -41,6 +46,11 @@ $(call inherit-product, device/samsung/toroplus/device.mk)
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_toroplus
 PRODUCT_DEVICE := toroplus
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := VanirAOSP on Toroplus
-PRODUCT_RESTRICT_VENDOR_FILES := true
+PRODUCT_BRAND := Google
+PRODUCT_MODEL := Galaxy Nexus
+PRODUCT_MANUFACTURER := Samsung
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=mysidspr \
+    BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.0.4/IMM76D/L700FC12:user/release-keys" \
+    PRIVATE_BUILD_DESC="mysidspr-user 4.0.4 IMM76D L700FC12 release-keys"
