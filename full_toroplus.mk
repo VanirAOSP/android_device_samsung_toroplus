@@ -18,7 +18,7 @@
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps). Except for a few implementation
 # details, it only fundamentally contains two inherit-product
-# lines, full and maguro, hence its name.
+# lines, full and toroplus, hence its name.
 #
 
 # Get the long list of APNs
@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES := device/samsung/toroplus/test-apns-conf_sprint.xml:system/e
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
-# Inherit from maguro device
+# Inherit from toroplus device
 $(call inherit-product, device/samsung/toroplus/device.mk)
 
 # Set those variables here to overwrite the inherited values.
