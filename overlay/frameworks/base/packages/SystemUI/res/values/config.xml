@@ -23,7 +23,7 @@
 
     <!-- When true, show 1/2G networks as 3G. -->
     <bool name="config_showMin3G">true</bool>
-    
+
     <!-- Show phone (voice) signal strength instead of data in mobile RSSI. -->
     <bool name="config_showPhoneRSSIForData">true</bool>
 
