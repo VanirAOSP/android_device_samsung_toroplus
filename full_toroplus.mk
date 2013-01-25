@@ -23,7 +23,8 @@
 
 #CDMATools
 PRODUCT_PACKAGES += \
-    CDMATools
+    CDMATools \
+    GNexusParts
 
 # Get the long list of APNs
 PRODUCT_COPY_FILES := device/samsung/toroplus/test-apns-conf_sprint.xml:system/etc/apns-conf.xml
