@@ -39,13 +39,13 @@ $(call inherit-product, device/samsung/toroplus/device.mk)
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_toroplus
 PRODUCT_DEVICE := toroplus
-PRODUCT_BRAND := Google
+PRODUCT_BRAND := samsung
 PRODUCT_MODEL := Galaxy Nexus
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mysidspr \
-    BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.1.1/JRO03U/L700FH05:user/release-keys" \
-    PRIVATE_BUILD_DESC="mysidspr-user 4.1.1 JRO03U L700FH05 release-keys"
+    BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.2.1/JOP40D/L700GA02:user/release-keys" \
+    PRIVATE_BUILD_DESC="mysidspr-user 4.2.1 JOP40D L700GA02 release-keys"
