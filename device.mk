@@ -18,7 +18,7 @@
 #
 # Everything in this directory will become public
 
-DEVICE_PACKAGE_OVERLAYS := device/samsung/toroplus/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/toroplus/overlay
 
 PRODUCT_COPY_FILES += \
 	device/samsung/toroplus/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
@@ -27,8 +27,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.vc_call_vol_steps=7
 
-PRODUCT_PACKAGES := \
-	CellBroadcastReceiver
-
-$(call inherit-product, device/samsung/tuna/device.mk)		
+$(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/toroplus/device-vendor.mk)

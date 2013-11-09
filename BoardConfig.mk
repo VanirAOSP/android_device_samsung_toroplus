@@ -12,8 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#TARGET_TELEPHONY_VARIANT := legacy
-
 # Default values, possibly overridden by BoardConfigVendor.mk
 TARGET_BOARD_INFO_FILE := device/samsung/toroplus/board-info.txt
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/toroplus/bluetooth
@@ -36,6 +34,4 @@ BOARD_INVENSENSE_APPLY_COMPASS_NOISE_FILTER := true
 
 # libsec-ril_lte.so is broke due to a missing symbol in surfacecomposerclient
 TARGET_TOROPLUS_RADIO_FIX := true
-
-#kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/tuna
+TARGET_TOROPLUS_RADIO := true
